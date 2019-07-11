@@ -197,6 +197,7 @@
 
      /**
       * 总结：
+      * 二分查找、插值查找、斐波那契查找的前提都是有序的基础上。
       * 二分查找mid=(low+high)/2
       * 插值查找mid=low+((key-a[low])/(a[high]-a[low]))*(high-low)
       * 斐波那契查找mid=low+F[k-1]-1
